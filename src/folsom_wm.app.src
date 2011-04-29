@@ -9,7 +9,8 @@
                   crypto,
                   inets,
                   mochiweb,
-                  webmachine
+                  webmachine,
+                  folsom
                  ]},
   {mod, { folsom_wm_app, []}},
   {modules, [ folsom_memory_resource, folsom_metrics_resource
