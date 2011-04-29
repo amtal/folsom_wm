@@ -1,7 +1,7 @@
 {application, folsom_wm,
  [
   {description, "HTTP/JSON export of folsom stats"},
-  {vsn, git},
+  {vsn, "v0.0.0"},
   {registered, []},
   {applications, [
                   kernel,
