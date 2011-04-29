@@ -1,0 +1,20 @@
+{application, folsom_wm,
+ [
+  {description, "HTTP/JSON export of folsom stats"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  crypto,
+                  inets,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { folsom_wm_app, []}},
+  {modules, [ folsom_memory_resource, folsom_metrics_resource
+            , folsom_statistics_resource, folsom_system_resource
+            , folsom_wm_app, folsom_wm_sup
+            ]},
+  {env, []}
+ ]}.
