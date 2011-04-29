@@ -33,7 +33,7 @@
 %% ===================================================================
 
 start(_StartType, _StartArgs) ->
-    folsom_sup:start_link().
+    folsom_wm_sup:start_link().
 
 stop(_State) ->
     ok.
